@@ -1,0 +1,136 @@
+body{
+    margin: 20px;
+}
+
+
+.left_nav{
+    position:absolute;
+    display:inline;
+    
+}
+
+.right_nav{
+    position:absolute;
+    display:inline;
+    left:1750px;
+   
+    
+}
+
+/* google.css (15, 5) */
+svg {
+    position: absolute;
+    color: #5f6368;
+    opacity: 1;
+    top: -5px;
+}
+
+
+/* nav li:first-child{
+    top:30px;
+    left:1500px;
+}
+
+nav li:nth-child(2){
+    top:30px;
+    left:1560px;
+}
+
+nav li:nth-child(3){
+    top:25px;
+    left:1630px;
+} */
+
+li img {
+    
+    position: absolute;
+    
+    top:0px;
+    bottom:5px;
+    
+    
+} 
+li{
+    list-style-type: none;
+    display: inline;
+    margin-right: 10px;
+   
+}
+
+li a{
+    color:black;
+    text-decoration: none;
+}
+
+
+/* google.css (1, 14) */
+.google_logo {
+    position: absolute;
+    left: 750px;
+    top: 300px;
+}
+
+
+input{
+    position: absolute;
+    margin : 5px 0px;
+    padding: 0px 50px;
+    width:580px;
+    height:44px;
+    border-radius: 30px;
+    border-style: solid;
+    border-color: #DCDCDD;
+    left: 610px;
+    top:400px;
+    z-index: 1;
+}
+
+/* google.css (22, 16) */
+.google_search {
+    position: absolute;
+    z-index: 2;
+    left: 625px;
+    top: 415px;
+}
+
+
+/* google.css (29, 20) */
+.google_microphone {
+    background-repeat: no-repeat;
+    position: absolute;
+    z-index: 2;
+    left: 1150px;
+    top: 416px;
+}
+
+.google_microphone_hover{
+    background-repeat: no-repeat;
+    position: absolute;
+    z-index: 2;
+    left: 1150px;
+    top: 416px;
+
+}
+
+.microphone img:last-child{
+    display: none;
+}
+
+.microphone:hover img:first-child{
+    display: none;
+}
+
+.microphone:hover img:last-child{
+    display: inline-block;
+}
+
+
+/* google.css (40, 18) */
+.google_keyboard {
+    background-image: url("https://www.gstatic.com/inputtools/images/tia.png");
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 1116px;
+    top: 423px;
+    z-index: 2;
+}
