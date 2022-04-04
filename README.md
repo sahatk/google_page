@@ -142,10 +142,10 @@ div.HStyle17
  <h1>현재까지 개발한 구글 검색 페이지 화면</h1>
   <img src="https://user-images.githubusercontent.com/95086690/161459470-fd9e839d-f649-4da1-9a6f-aecaca1532e8.png">
 
-<h1>google.html<h1>
-
+<h1>google.html 링크<h1>
+https://github.com/sahatk/google_page/blob/main/%EA%B5%AC%EA%B8%80%20%ED%8E%98%EC%9D%B4%EC%A7%80/google.html
 	
 	
-<h1>google.css<h1>
+<h1>google.css <h1>
 https://github.com/sahatk/google_page/blob/main/%EA%B5%AC%EA%B8%80%20%ED%8E%98%EC%9D%B4%EC%A7%80/google.css
 
