@@ -139,13 +139,15 @@ div.HStyle17
   <h1>실제 구글 검색 페이지 화면<h1>
  
   
-  ![실제 구글 화면](https://user-images.githubusercontent.com/95086690/161415756-41a1cb2d-8c39-43a3-822a-da755702cd30.png)
+  ![실제 구글 화면]![실제 구글 페이지](https://user-images.githubusercontent.com/95086690/161459041-879430fa-819f-4e63-9ad4-28a836b09e18.png)
+
 
   
  <h1>현재까지 개발한 구글 검색 페이지 화면</h1>
     
   
-![현재까지 개발한 구글 검색 페이지 화면](https://user-images.githubusercontent.com/95086690/161416043-b9d738ac-f43d-45a8-bb4b-ba59ff68935a.png)
+![현재까지 개발한 구글 검색 페이지 화면]![만든 구글 페이지](https://user-images.githubusercontent.com/95086690/161459056-0aeedd00-cc59-4ffe-b11b-ab096a37afe3.png)
+
 	  
 	  
 <h1>google.html<h1>
@@ -186,7 +188,7 @@ div.HStyle17
 
 
 
-    <article>
+    <section>
 
         <div>
             <img class="google_logo" src="image/google_logo.png" alt="google logo"></img>
@@ -200,29 +202,36 @@ div.HStyle17
             <img class="google_microphone" src="image/microphone.png" alt="google_microphone">
             <img class="google_microphone_hover" src="image/microphone_hover.png" alt="google_microphone">
         </div>
-    </article>
+    </section>
 
     <footer>
-        
+        <div class="box">
+            <div class="box1">
+                <p>대한민국</p>
+            </div>
+            <div class="box2">
+                <div class="items">
+                    <span><a href="https://ads.google.com/intl/ko_kr/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1" target="_blank">광고</a></span>
+                    <span><a href="https://www.google.com/intl/ko_kr/business/" target="_blank">비즈니스</a></span>
+                    <span><a href="https://www.google.com/search/howsearchworks/?fg=1" target="_blank">검색의원리</a></span>
+                </div>
+                <div class="items">
+                    <span><a href="https://policies.google.com/privacy?hl=ko&fg=1" target="_blank">개인정보처리방침</a></span>
+                    <span><a href="https://policies.google.com/terms?hl=ko&fg=1" target="_blank">약관</a></span>
+                    <span><a href="">설정</a></span>
+                </div>
+            </div>
+        </div>
+
     </footer>
-
-
-
-
-
-
-
+    
 </body>
 
 </html>
 	
 	
 <h1>google.css<h1>
-body{
-    margin: 20px;
-}
-
-
+/*Header*/
 .left_nav{
    
     position:absolute;
@@ -237,7 +246,6 @@ body{
    
     
 }
-
 
 li img {
     
@@ -259,6 +267,12 @@ li a{
     color:black;
     text-decoration: none;
 }
+
+/*Header*/
+
+
+
+/*section*/
 
 
 
@@ -291,8 +305,6 @@ input{
     top: 415px;
 }
 
-
-
 .google_microphone {
     background-repeat: no-repeat;
     position: absolute;
@@ -322,7 +334,6 @@ input{
     display: inline-block;
 }
 
-
 .google_keyboard {
     background-image: url("https://www.gstatic.com/inputtools/images/tia.png");
     background-repeat: no-repeat;
@@ -332,4 +343,40 @@ input{
     z-index: 2;
 }
 
+/*section*/
 
+
+/*footer*/
+
+footer {
+    background-color:#F2F2F2;
+    width:100%;
+    height : 110px;
+    bottom:0px;
+    position: absolute;
+    padding:20px 0px;
+    
+    
+}
+
+.box1{
+    border-bottom: solid gray;
+}
+
+.box2{
+    padding-top:10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.items span {
+    padding-right: 15px;
+}
+
+.items a{
+    color:black;
+    text-decoration: none;
+}
+
+
+/*footer*/
