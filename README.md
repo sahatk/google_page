@@ -137,11 +137,10 @@ div.HStyle17
   
  
   <h1>실제 구글 검색 페이지 화면<h1>
- ![실제 구글 페이지](https://user-images.githubusercontent.com/95086690/161459458-ce8af920-8d55-4f5e-a136-5a2de7e7177a.png)
+  <img src="https://user-images.githubusercontent.com/95086690/161459458-ce8af920-8d55-4f5e-a136-5a2de7e7177a.png">
 
  <h1>현재까지 개발한 구글 검색 페이지 화면</h1>
- ![만든 구글 페이지](https://user-images.githubusercontent.com/95086690/161459470-fd9e839d-f649-4da1-9a6f-aecaca1532e8.png)
-   
+  <img src="https://user-images.githubusercontent.com/95086690/161459470-fd9e839d-f649-4da1-9a6f-aecaca1532e8.png">
 
 <h1>google.html<h1>
 <!DOCTYPE html>
