@@ -223,8 +223,8 @@ div.HStyle17
 	
 	
 <h1>google.css<h1>
-	<p>
-		/*Header*/
+	
+/*Header*/
 .left_nav{
    
     position:absolute;
