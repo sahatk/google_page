@@ -139,14 +139,15 @@ div.HStyle17
   <h1>실제 구글 검색 페이지 화면<h1>
  
   
-  ![실제 구글 화면]![실제 구글 페이지](https://user-images.githubusercontent.com/95086690/161459041-879430fa-819f-4e63-9ad4-28a836b09e18.png)
+[실제 구글 화면][실제 구글 페이지](https://user-images.githubusercontent.com/95086690/161459300-c025b5e6-20d4-4f41-b523-083297ee8c64.png)
+
 
 
   
  <h1>현재까지 개발한 구글 검색 페이지 화면</h1>
     
   
-![현재까지 개발한 구글 검색 페이지 화면]![만든 구글 페이지](https://user-images.githubusercontent.com/95086690/161459056-0aeedd00-cc59-4ffe-b11b-ab096a37afe3.png)
+[현재까지 개발한 구글 검색 페이지 화면][만든 구글 페이지](https://user-images.githubusercontent.com/95086690/161459056-0aeedd00-cc59-4ffe-b11b-ab096a37afe3.png)
 
 	  
 	  
