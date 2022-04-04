@@ -137,20 +137,12 @@ div.HStyle17
   
  
   <h1>실제 구글 검색 페이지 화면<h1>
- 
-  
-[실제 구글 화면][실제 구글 페이지](https://user-images.githubusercontent.com/95086690/161459300-c025b5e6-20d4-4f41-b523-083297ee8c64.png)
+ ![실제 구글 페이지](https://user-images.githubusercontent.com/95086690/161459458-ce8af920-8d55-4f5e-a136-5a2de7e7177a.png)
 
-
-
-  
  <h1>현재까지 개발한 구글 검색 페이지 화면</h1>
-    
-  
-[현재까지 개발한 구글 검색 페이지 화면][만든 구글 페이지](https://user-images.githubusercontent.com/95086690/161459056-0aeedd00-cc59-4ffe-b11b-ab096a37afe3.png)
+ ![만든 구글 페이지](https://user-images.githubusercontent.com/95086690/161459470-fd9e839d-f649-4da1-9a6f-aecaca1532e8.png)
+   
 
-	  
-	  
 <h1>google.html<h1>
 <!DOCTYPE html>
 <html lang="en">
