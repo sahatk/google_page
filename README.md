@@ -148,7 +148,7 @@ div.HStyle17
 ![현재까지 개발한 구글 검색 페이지 화면](https://user-images.githubusercontent.com/95086690/161416043-b9d738ac-f43d-45a8-bb4b-ba59ff68935a.png)
 	  
 	  
-<h1>html코딩<h1>
+<h1>google.html<h1>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -215,3 +215,121 @@ div.HStyle17
 </body>
 
 </html>
+	
+	
+<h1>google.css<h1>
+body{
+    margin: 20px;
+}
+
+
+.left_nav{
+   
+    position:absolute;
+    display:inline;
+    
+}
+
+.right_nav{
+    position:absolute;
+    display:inline;
+    left:1710px;
+   
+    
+}
+
+
+li img {
+    
+    position: absolute;
+    
+    top:0px;
+    bottom:5px;
+    
+    
+} 
+li{
+    list-style-type: none;
+    display: inline;
+    margin-right: 10px;
+   
+}
+
+li a{
+    color:black;
+    text-decoration: none;
+}
+
+
+
+.google_logo {
+    position: absolute;
+    left: 750px;
+    top: 300px;
+}
+
+
+input{
+    position: absolute;
+    margin : 5px 0px;
+    padding: 0px 50px;
+    width:580px;
+    height:44px;
+    border-radius: 30px;
+    border-style: solid;
+    border-color: #DCDCDD;
+    left: 610px;
+    top:400px;
+    z-index: 1;
+}
+
+
+.google_search {
+    position: absolute;
+    z-index: 2;
+    left: 625px;
+    top: 415px;
+}
+
+
+
+.google_microphone {
+    background-repeat: no-repeat;
+    position: absolute;
+    z-index: 2;
+    left: 1150px;
+    top: 416px;
+}
+
+.google_microphone_hover{
+    background-repeat: no-repeat;
+    position: absolute;
+    z-index: 2;
+    left: 1150px;
+    top: 416px;
+
+}
+
+.microphone img:last-child{
+    display: none;
+}
+
+.microphone:hover img:first-child{
+    display: none;
+}
+
+.microphone:hover img:last-child{
+    display: inline-block;
+}
+
+
+.google_keyboard {
+    background-image: url("https://www.gstatic.com/inputtools/images/tia.png");
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 1116px;
+    top: 423px;
+    z-index: 2;
+}
+
+
