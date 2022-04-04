@@ -143,9 +143,9 @@ div.HStyle17
   <img src="https://user-images.githubusercontent.com/95086690/161459470-fd9e839d-f649-4da1-9a6f-aecaca1532e8.png">
 
 <h1>google.html<h1>
-https://github.com/sahatk/google_page/blob/main/%EA%B5%AC%EA%B8%80%20%ED%8E%98%EC%9D%B4%EC%A7%80/google.css
+
 	
 	
 <h1>google.css<h1>
-	
+https://github.com/sahatk/google_page/blob/main/%EA%B5%AC%EA%B8%80%20%ED%8E%98%EC%9D%B4%EC%A7%80/google.css
 
