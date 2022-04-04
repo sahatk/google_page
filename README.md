@@ -146,3 +146,72 @@ div.HStyle17
     
   
 ![현재까지 개발한 구글 검색 페이지 화면](https://user-images.githubusercontent.com/95086690/161416043-b9d738ac-f43d-45a8-bb4b-ba59ff68935a.png)
+	  
+	  
+<h1>html코딩<h1>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>google 페이지 만들기</title>
+    <link rel="stylesheet" type="text/css" href="google.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <div class="left_nav">
+
+                <li><a href="https://about.google/?fg=1&utm_source=google-KR&utm_medium=referral&utm_campaign=hp-header"
+                        target="_blank">Google 정보</a></li>
+                <li><a href="https://store.google.com/KR?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=ko-KR"
+                        target="_blank">스토어</a></li>
+
+            </div>
+            <div class="right_nav">
+
+                <li><a href="https://www.google.com/intl/ko/gmail/about/" target="_blank">Gmail</a></li>
+                <li><a href="https://www.google.co.kr/imghp?hl=ko&tab=ri&ogbl" target="_blank">이미지</a></li>
+                <button type="button" class="btn btn-primary"
+                    onclick="location.href='https://accounts.google.com/signin/v2/identifier?hl=ko&passive=true&continue=https%3A%2F%2Fwww.google.com%2F%3Fgws_rd%3Dssl&ec=GAZAAQ&flowName=GlifWebSignIn&flowEntry=ServiceLogin'">로그인</button>
+            </div>
+        </nav>
+    </header>
+
+
+
+    <article>
+
+        <div>
+            <img class="google_logo" src="image/google_logo.png" alt="google logo"></img>
+        </div>
+
+
+        <img class="google_search" src="image/search.png" alt="google_search">
+        <input type="search" placeholder="Google 검색 또는 URL 입력">
+        <img class="google_keyboard" src="https://www.gstatic.com/inputtools/images/tia.png">
+        <div class="microphone">
+            <img class="google_microphone" src="image/microphone.png" alt="google_microphone">
+            <img class="google_microphone_hover" src="image/microphone_hover.png" alt="google_microphone">
+        </div>
+    </article>
+
+    <footer>
+        
+    </footer>
+
+
+
+
+
+
+
+</body>
+
+</html>
