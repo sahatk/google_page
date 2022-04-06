@@ -213,15 +213,83 @@ a{
 
 
 /* Smartphones (landscape) ---------------- */
-/* 너비(width)가 321~767일때 */
+/* 너비(width)가 321~767일때 */ /*갤럭시 s9+ 기준*/
 @media only screen 
 
 and (min-width : 321px)
 
 and (max-width : 767px)
 
-{
+{   
+    nav {
+        width:361px;
+        
+    }
+    footer{
+        width: 361px;
+        bottom:0px !important;
+    }
+    .right_nav{
+        margin-right:10px;
+    }
+    
+    #login {
+        width: 65px;
+        height: 28px;
+        font-size: 15px;
+        margin-top: -5px;
+        padding: 3px 7px;
+    }
+    body{
+        width:360px !important;
+        
+    }
 
-/* css 넣을 곳*/
+    .box2{
+        padding-top:18px;
+        font-size:10px;
+    }
+
+    .google_logo {
+        position: absolute;
+        left: 40px;
+        top: 200px;
+    }
+
+    .input_box1 {
+        position: absolute;
+        margin: 5px 0px;
+        padding: 0px 50px;
+        width: 340px;
+        height: 44px;
+        border-radius: 30px;
+        border-style: solid;
+        border-color: #DCDCDD;
+        left: 8px;
+        top: 310px;
+        z-index: 1;
+    }
+
+    .google_keyboard {
+        background-image: url("https://www.gstatic.com/inputtools/images/tia.png");
+        background-repeat: no-repeat;
+        position: absolute;
+        left: 286px;
+        top: 333px;
+        z-index: 2;
+    }
+
+    .microphone {
+        left: -835px;
+        top: -90px;
+        position: absolute;
+    }
+
+    .google_search {
+        position: absolute;
+        z-index: 2;
+        left: 15px;
+        top: 325px;
+    }
 
 }
