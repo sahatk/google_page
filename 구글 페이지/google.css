@@ -222,11 +222,11 @@ and (max-width : 767px)
 
 {   
     nav {
-        width:361px;
+        width:410px;
         
     }
     footer{
-        width: 361px;
+        width: 410px;
         bottom:0px !important;
     }
     .right_nav{
@@ -241,7 +241,8 @@ and (max-width : 767px)
         padding: 3px 7px;
     }
     body{
-        width:360px !important;
+        width:381px !important;
+      
         
     }
 
@@ -252,7 +253,7 @@ and (max-width : 767px)
 
     .google_logo {
         position: absolute;
-        left: 40px;
+        left: 70px;
         top: 200px;
     }
 
@@ -290,6 +291,11 @@ and (max-width : 767px)
         z-index: 2;
         left: 15px;
         top: 325px;
+    }
+
+    .input_group{
+        position: absolute;
+        margin-left:30px;
     }
 
 }
